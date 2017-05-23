@@ -2,15 +2,15 @@ var addTaskButton = document.getElementById("add-task-button");
 
 // When user clicks add task button, call newTask function
 addTaskButton.addEventListener('click', function(event) {
-    newTask();
+  newTask();
 });
 
 function newTask() {
-	// Assign variables
-	var item = document.getElementById('add-task-input').value;
-	var ul = document.getElementById("list");
-	var li = document.createElement('li');
-	//Add task to list
+  // Assign variables
+  var item = document.getElementById('add-task-input').value;
+  var ul = document.getElementById("list");
+  var li = document.createElement('li');
+  //Add task to list
   li.appendChild(document.createTextNode("- "+item));
   ul.appendChild(li);
   // Clear input box
@@ -20,5 +20,5 @@ function newTask() {
  }
 
 function removeTask(e) {
-	e.target.parentElement.removeChild(e.target);
+  e.target.parentElement.removeChild(e.target);
 }
