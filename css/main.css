@@ -1,0 +1,70 @@
+/*----------------
+	SETUP         
+----------------*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+}
+
+h1 {
+	letter-spacing: 0.2em;
+	color: #4A96AD;
+}
+
+p {
+	letter-spacing: 0.1em;
+}
+
+.container {
+	width: 50%;
+	margin: 10% auto 4% auto;
+	text-align: center;
+}
+
+.content-container {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.content-container ul {
+	margin-top: 0;
+	padding: 0;
+}
+
+input[type="text"] {
+	padding: 8px;
+	margin-bottom: 5%;
+	font-size: 100%;
+}
+
+/*----------------
+	BUTTON         
+----------------*/
+
+button {
+	color: #fff;
+	border: none;
+	padding: 10px;
+	background-color: #4A96AD;
+	font-size: 100%;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+/*----------------
+	TASKS         
+----------------*/
+
+li {
+	list-style: none;
+	padding: 10px;
+
+}
+
+li:hover {
+	text-decoration: line-through;
+}
